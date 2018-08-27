@@ -1,0 +1,31 @@
+//通用css开始
+@charset "utf-8";
+body,input{font:14px/30px Microsoft Yahei;}
+@Darkgray:#333;//文字深灰色
+@Lightgray:#666;//文字浅灰色
+@Lighthint:#999;//文字浅灰色
+@color_hover:#ff6639;//鼠标滑过颜色
+.trans(@w:0.2s){
+    transition:@w;-moz-transition:@w;  -webkit-transition:@w;-o-transition:@w;
+}
+.disp (@w: 100%) {
+   width: @w; display: inline-block;
+}
+
+.tc(){text-align: center;}
+.lh(@a){ line-height: @a; }
+.ti(@a){ text-indent: @a; }
+.pa(){  position: absolute; }
+.pr(){  position: relative; }
+.bx(){ box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;-ms-box-sizing: border-box;-op-box-sizing: border-box;}
+.fw(){ font-weight: bold; }
+.br(@a){border-radius: @a;-webkit-border-radius: @a;-moz-border-radius: @a;-ms-border-radius: @a;}
+.fl(){float: left;}
+.fr(){float: right;}
+.bshadow(@a1;@a2;@a3;@a4;@5){box-shadow:@a1 @a2 @a3 @a4 @5;-webkit-box-shadow:@a1 @a2 @a3 @a4 @5;}
+.tshadow(@a1;@a2;@a3;@a4;){text-shadow:@a1 @a2 @a3 @a4;-webkit-text-shadow:@a1 @a2 @a3 @a4;}
+.dis(){display: inline-block; *zoom: 1; *display: inline;}
+.transition(@a){ transition: @a;-webkit-transition: @a;-moz-transition: @a;-ms-transition: @a;}
+.transform(@str){ transform: @str; -webkit-transform: @str;-moz-transform: @str; -ms-transform: @str;}
+.animation(@str){animation: @str;-moz-animation: @str;-webkit-animation:@str;-ms-animation: @str;}
+//通用css结束

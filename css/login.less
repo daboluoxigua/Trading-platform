@@ -1,0 +1,80 @@
+@import "globe.less";
+.login_head{float: left; width: 100%;background: #fff; height: 68px; line-height: 68px; display: inline-block;
+    span{height: 28px; vertical-align: middle; color: #5c6066; font-size: 24px; border-left: 1px solid #d9d9d9; padding-left: 22px;margin-left: 22px;}
+    img{vertical-align: middle;}
+    a{ color: #ff6639;}
+}
+.login_foot{float: left;width: 100%; background: url(../images/login_06.jpg) center no-repeat;height: 210px;margin-top: 130px;}
+.regbg{ background: url(../images/regbg.jpg) center no-repeat;}
+
+.login_box{  margin-top: 20px; width: 100%;float: left; position: relative;
+    .banner{ width: 750px; height: 460px; text-align: center; float: left;
+        img{vertical-align: middle;}
+    }
+    
+}
+.login_form{ padding:38px 20px 0; width: 300px;height: 460-38px; float: right;background: #fff;
+    h2{ font-size:18px; font-weight: normal; color:@Darkgray; height: 38px; line-height: 38px; width: 100%; display: inline-block;}
+    li{ margin: 10px 0; float: left; width: 100%;line-height: 20px;
+        .r a{ color:#666;}
+        .r a:hover{ color: #ff6639;}
+        .sin{ color: #7485de; text-decoration: underline;}
+        .ty{ color: #ff6639;}
+        img{ vertical-align: middle;}
+    }
+}
+
+
+.classify{ width: 140px; height: 39px;.br(3px); float: left; border: 1px solid #bcbcc4; text-align: center; line-height: 39px; background: url(../images/banksec-g.png) right bottom no-repeat; cursor: pointer;}
+.classify.select{background: url(../images/banksec.png) right bottom no-repeat; border: 1px solid #ffa200; color: #ff6639;}
+.r{ float: right;}
+input[type=text]{.br(3px);float: left;}
+
+input[type=text].user{ background: url(../images/login.png) no-repeat 12px 8px; text-indent: 56px;}
+input[type=text].pas,.pas{ background: url(../images/login.png) no-repeat 12px -25px; text-indent: 56px;}
+
+
+
+//注册
+.formbox{ width: 300px; padding: 20px 20px 0;margin-left: 122px; background: #fff;float: left;
+    ul{ float: left; padding-bottom: 15px; width: 100%; }
+    h2{ font-size: 16px; color: @Darkgray; font-weight: normal;height: 50px; line-height: 50px; width: 100%; display: inline-block; text-align: center;}
+     li{ margin: 8px 0; float: left; width: 100%;line-height: 20px;
+        .codes{ width: 120px;color: #fff; .br(3px); float: right; height: 40px; line-height: 40px; text-align: center; background: #ff6639; cursor: pointer;}
+        .codes:hover{ background: #ff774f; color: #fff;}
+        .gray,.gray:hover{ background: #c5c5c5;}
+        p{ width: 100%; display: inline-block; font-size: 12px; margin-top: 8px;
+           a{color: #06b5ff;}
+        }
+     }
+     .ac a{ color: #7485de;}
+     .ty{ color: #ff6639;}
+     
+     
+     //借款人注册
+    .bmoney{
+        ul{ padding: 0;}
+        li{ float: left; width: 50%;
+            input{vertical-align: middle;}
+        }
+        .hovertab{ color:#ff6639;}
+    }
+
+}
+
+.boxcent{ background: #fff; padding-bottom: 50px; min-height: 545px;
+    .formbox{float: none; margin:50px auto 0; height: auto;
+        h2{font-size: 24px;}
+    }
+}
+
+
+
+//找回密码
+.course{ width: 651px; height: 33px; line-height: 33px; text-align: center; font-size: 14px; color: #fff; margin: 0 auto;background: url(../images/step.gif); margin-top: 55px;
+    span{ width: 651/4px; height: 33px; display: inline-block; float: left;}
+}
+.step1{ background-position: 0 0;}
+.step2{ background-position: 0 -33px;}
+.step3{ background-position: 0 -66px;}
+.step4{ background-position: 0 -99px;}

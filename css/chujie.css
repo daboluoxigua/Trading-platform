@@ -1,0 +1,46 @@
+.chujie {
+  text-align: center;
+  width: 1020px;
+  background: #fff;
+  padding: 0 40px 70px;
+}
+.chujie h2 {
+  font-size: 24px;
+  color: #666666;
+  font-weight: normal;
+  padding-top: 100px;
+  padding-bottom: 15px;
+}
+.chujie .time {
+  margin-bottom: 35px;
+  background: url(../images/djs_03.gif);
+  width: 243px;
+  height: 208px;
+  display: inline-block;
+  font-size: 48px;
+  color: #fff;
+  line-height: 300px;
+}
+.chujie .btn_rad {
+  width: 120px;
+  margin-top: 40px;
+}
+.table_n1 {
+  color: #666;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 40px;
+}
+.table_n1 th {
+  font-weight: normal;
+  background: #dbe0fe;
+}
+.table_n1 td {
+  background: #fff;
+}
+.table_n1 tr:nth-child(odd) td {
+  background: #f7f7ff;
+}
+.paget {
+  margin-bottom: 0;
+}

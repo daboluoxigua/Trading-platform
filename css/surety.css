@@ -1,0 +1,553 @@
+.poa {
+	position: absolute
+}
+
+.por {
+	position: relative
+}
+
+.tc {
+	text-align: center
+}
+
+.fs14 {
+	font-size: 14px
+}
+
+.fs15 {
+	font-size: 15px
+}
+
+.fs16 {
+	font-size: 16px
+}
+
+.fs17 {
+	font-size: 17px
+}
+
+.fs18 {
+	font-size: 18px
+}
+
+.fs20 {
+	font-size: 20px
+}
+
+.fs33 {
+	font-size: 33px
+}
+
+.db {
+	display: block
+}
+
+.cf {
+	color: #fff
+}
+
+.jz {
+	margin: 0 auto
+}
+.sections {
+	background: #fff
+}
+.sections h2 {
+	margin: 0 auto;
+	width: 135px;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 400;
+	border-bottom: 2px solid #ff6639;
+	padding-bottom: 10px;
+	position: relative
+}
+
+.sections .h2bor {
+	width: 100%;
+	height: 0;
+	border-bottom: 1px solid #f0f0f0;
+	margin-top: -2px
+}
+
+.sections .tit {
+	background: #ff663a;
+	border-radius: 2px;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 26px;
+	height: 43px;
+    line-height: 43px;
+    margin-bottom: 14px;
+}
+
+#risk {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 50px
+}
+
+#risk .h2bor {
+	margin-bottom: 36px
+}
+
+#risk p {
+	text-align: center;
+	color: #8c8c8c;
+	font-size: 15px
+}
+
+#risk p span {
+	color: #e4b74f
+}
+
+#risk .tit {
+	width: 250px;
+	height: 43px;
+	line-height: 43px;
+	margin-bottom: 14px
+}
+
+#risk .tit~img {
+	margin: 32px 0 46px 0;
+	display: block
+}
+
+#risk #control_list {
+	position: absolute;
+	right: 0;
+	bottom: 65px;
+	font-size: 16px;
+	color: #8c8c8c
+}
+
+#risk #control_list strong {
+	font-size: 18px;
+	color: #646464
+}
+
+#risk #control_list li {
+	line-height: 30px;
+	margin-bottom: 20px
+}
+
+#risk #control_list li:nth-of-type(2) {
+	background-position: 0 -58px
+}
+
+#risk #control_list li:nth-of-type(3) {
+	background-position: 0 -118px
+}
+
+#risk #control_list li:nth-of-type(4) {
+	background-position: 0 -176px
+}
+
+#surety,
+#value,.equity,.public {
+	width: 100%;
+	padding-top: 53px;
+	background: #62acff;
+	display: inline-block;
+	*display: inherit;
+	*zoom: 1;
+}
+
+#surety h2,
+#value h2 {
+	width: 100%
+}
+
+#surety .h2bor,
+#value .h2bor {
+	margin-bottom: 20px
+}
+
+#surety .h2bor~p,
+#value .h2bor~p {
+	text-align: center;
+	line-height: 26px;
+	font-size: 15px;
+	color: #fff
+}
+
+#tri_surety {
+	padding: 30px 0 70px 0;
+	overflow: hidden;
+	width: 1046px;
+	margin: 0 auto
+}
+
+#tri_surety .info {
+	width: 398px;
+	height: 258px;
+	background: #CFA74A;
+	border-radius: 6px;
+	overflow: hidden;
+	margin: 0 auto
+}
+
+#tri_surety .info.last {
+	margin-right: 0
+}
+
+#tri_surety h5 {
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 17px;
+	color: #4d3806;
+	background: #b68f35
+}
+
+#tri_surety .zc {
+	color: #fff;
+	margin: 12px 0 6px 0;
+	text-align: center
+}
+
+#tri_surety .zc span {
+	font-size: 17px
+}
+
+#tri_surety .zc~p {
+	width: 279px;
+	margin: 0 auto;
+	color: #fff;
+	line-height: 21px
+}
+
+#tri_surety .morelink {
+	width: 88px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	margin: 0 auto;
+	background: #f9d88a;
+	color: #9b7929;
+	font-size: 12px;
+	display: block;
+	margin-top: 18px
+}
+
+#tri_surety .morelink:hover {
+	text-decoration: underline
+}
+
+#plan h2 {
+	width: 305px;
+	padding-top: 50px
+}
+
+#plan .h2bor {
+	margin-bottom: 34px
+}
+
+#plan .tit {
+	width: 400px;
+	height: 43px;
+	line-height: 43px;
+	color: #fff;
+	margin-bottom: 10px
+}
+
+#plan .tit~p {
+	font-size: 16px;
+	line-height: 26px!important
+}
+
+#plan .tit~p~img {
+	display: block;
+	margin: 0 auto;
+	margin: 53px auto 38px auto
+}
+
+#value {
+	position: relative
+}
+
+#value h2 {
+	width: 136px;
+	margin: 0 auto;
+	text-indent: -6px
+}
+
+#value .tit {
+	width: 223px;
+	height: 43px;
+	line-height: 43px
+}
+
+#value .tit~p {
+	font-size: 16px;
+	margin: 8px 0 30px 0
+}
+
+#value #date {
+	width: 728px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 60px
+}
+
+#value #date li {
+	float: left;
+	margin-right: 26px
+}
+
+#value #date li.last {
+	margin-right: 0
+}
+
+#value #date~img {
+	width: 944px;
+	display: block;
+	margin: 0 auto
+}
+
+#value .center {
+	margin: 0 auto;
+	width: 948px;
+	position: relative
+}
+
+#value .wmore {
+	position: absolute;
+	width: 134px;
+	height: 45px;
+	display: block;
+	left: 15px;
+	bottom: 435px
+}
+
+#policy {
+	overflow: hidden
+}
+
+#policy h2 {
+	 color: #ff6639;
+	margin-top: 50px
+}
+
+#policy .h2bor {
+	margin-bottom: 48px
+}
+
+#policy .rule {
+	width: 1080px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	padding: 0 10px
+}
+
+#policy .rule h4 {
+	background: url(../images/num.png) no-repeat 0 4px;
+	font-size: 30px;
+	color: #36393e;
+	text-indent: 63px;
+	height: 37px;
+	line-height: 37px
+}
+
+#policy .rule h4~p {
+	margin: 18px 0 10px 0;
+	font-size: 18px;
+	color: #646464
+}
+
+#policy .rule li {
+	line-height: 25px;
+	position: relative;
+	text-indent: 16px
+}
+
+#policy .round {
+	width: 9px;
+	height: 9px;
+	background: #e4b74f;
+	border-radius: 50%;
+	position: absolute;
+	top: 8px;
+	left: 0
+}
+
+#policy .rule:nth-of-type(3) h4 {
+	background-position: 0 -76px
+}
+
+#policy .rule:nth-of-type(4) h4 {
+	background-position: 0 -146px
+}
+
+#policy .rule:nth-of-type(5) h4 {
+	background-position: 0 -224px
+}
+
+#plan #newfxbfj {
+	margin: 20px auto
+}
+
+#plan .tit~p~a {
+	color: #dcb250;
+	text-align: right;
+	text-decoration: underline;
+	display: block;
+	padding-right: 200px;
+	margin-top: 14px
+}
+
+#fxbfp {
+	width: 830px;
+	margin: 0 auto
+}
+
+#plan h4 {
+	color: #ff6639;
+	text-align: center;
+	font-size: 20px;
+	margin: 24px 0
+}
+
+.gg {
+	width: 900px;
+	margin: 0 auto;
+	position: relative
+}
+
+#fdimg {
+	z-index: 5;
+	left: 50%;
+	margin-left: -175px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: -150px;
+	display: none;
+	z-index: 10
+}
+
+#fdimg img {
+	width: 350px
+}
+
+#click {
+	width: 214px;
+	height: 150px;
+	position: absolute;
+	right: 96px;
+	top: -185px;
+	display: block
+}
+
+#click img {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+
+
+.c-main {
+	width: 958px;
+	margin: 0 auto;
+	border: 1px solid #cfcfcf
+}
+
+.p_mvt {
+	width: 958px;
+	text-align: center;
+	height: auto;
+	line-height: 48px;
+	border-bottom: #cfcfcf 1px solid;
+	padding: 5px 0
+}
+
+.p_mvt h1 {
+	font-size: 26px;
+	color: #3A3D42;
+	font-family: '微软雅黑'
+}
+
+.p_mvc {
+	width: 918px;
+	height: auto;
+	line-height: 24px;
+	padding: 0 20px;
+	margin: 0 auto;
+	font-size: 14px;
+	padding-top: 30px
+}
+
+.p_mvc p {
+	line-height: 32px;
+	font-size: 14px;
+	color: #333
+}
+
+.p_mvg {
+	width: 918px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 35px;
+	text-align: center
+}
+
+.p_mvg ul {
+	width: 960px;
+	overflow: hidden
+}
+
+.p_mvg li {
+	width: 360px;
+	float: left;
+	margin-right: 32px
+}
+
+.line20px {
+	font-size: 0;
+	line-height: 20px;
+	height: 20px;
+	width: 100%;
+	clear: both
+}
+
+.line15px {
+	font-size: 0;
+	line-height: 15px;
+	height: 15px;
+	width: 100%;
+	clear: both
+}
+
+.line10px {
+	font-size: 0;
+	line-height: 10px;
+	height: 10px;
+	width: 100%;
+	clear: both
+}
+
+.equity{padding-bottom: 75px;}
+.eqlist { width: 1100px; margin: 0 auto;}
+.equity ul{ margin-left: -55px; margin-top: 64px; width: 110%;}
+.equity ul li{ margin-left: 55px;float: left; width: 175px; color: #fff; text-align: center;}
+.equity ul li span{font-size: 18px; width: 100%;display: inline-block;*display:inherit;*zoom: 1; margin-top: 15px; line-height: 35px;}
+.equity ul li p{width: 100%; line-height: 20px; text-align: left; font-size: 12px;}
+
+.manage{ padding-top: 53px;}
+.manage p{ color: #8c8c8c; line-height: 99px; font-size: 16px;}
+
+.public{padding-bottom: 75px;}
+.publiclist { width: 1100px; margin: 0 auto;}
+.public ul{margin-top: 64px; }
+.public ul li{float: left; width: 50%; color: #fff; text-align: center;}
+.public ul li span{font-size: 20px; width: 100%;display: inline-block;*display:inherit;*zoom: 1; margin-top: 30px; line-height: 35px;}
+.public ul li p{width: 356px; line-height: 24px; text-align: left;display: inline-block;*display:inherit;*zoom: 1; }
+
+.hint{ padding: 52px 0 75px 0;}
+.hint .txt{ width: 961px; height: 181px; background: url(../images/111_38_36.png) no-repeat; padding: 45px 30px; margin: 50px auto 0;}
+.hint .txt p{ background:url(../images/111_39.png) left 14px no-repeat; text-indent: 26px; font-size: 16px; color: #8c8c8c; line-height: 36px;}
